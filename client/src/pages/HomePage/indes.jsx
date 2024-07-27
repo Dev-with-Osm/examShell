@@ -29,22 +29,21 @@ export default function HomePage() {
         </div>
         <div className="flex items-center justify-center gap-10">
           <div>
-            <button className="flex items-center justify-center gap-2 px-5 py-2 rounded-md border  bg-white/80 text-black/80 font-semibold">
+            <button className="flex items-center justify-center gap-2 px-5 py-2 rounded-md border  bg-white/80 text-black/80 font-semibold hover:text-white/80 hover:bg-white/20 transition-all duration-300">
               Sign up with <GoogleIcon />
             </button>
           </div>
           <div>
-            <button
-              className="flex items-center justify-center gap-2 px-5 py-2 rounded-md border  bg-white/20 text-white/80 font-medium"
-              onClick={() => console.log("helkl")}
-            >
+            <button className="flex items-center justify-center gap-2 px-5 py-2 rounded-md border  bg-white/20 text-white/80 font-semibold hover:text-black/80 hover:bg-white/80 transition-all duration-300">
               Sign up with <GithubLogo />
             </button>
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 text-center w-full p-2 text-sm">
-        Developed By Osm
+      <div className="absolute bottom-0 text-center w-full p-2 text-sm bg-gradient-to-r from-[#e2d6dc] via-[#a563c8] to-[#8a50a9] inline-block text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-[#e2d6dc] via-[#a563c8] to-[#9b70b2] inline-block text-transparent bg-clip-text">
+          Developed By Osm
+        </span>
       </div>
     </>
   );
